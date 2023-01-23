@@ -98,7 +98,14 @@ font-weight:400;
   justify-content:space-evenly;
 }
 
-/*--- Images démo --*/
+.section-title{
+  margin: 50px 90px ;
+  align-items: center;
+  display: flex;
+  align-content: center;
+  height: 50px;
+}
+/*--- Cartes portfolio --*/
 #portfolio{
 }
 .portfolio-item{
@@ -107,15 +114,29 @@ font-weight:400;
   padding:10px;
   margin:10px;
   text-align:center;
-  width:40%;
+  width:30%;
+  box-shadow:10px -6px 0.3em #545454 ;
+  border-radius 10px;
 
 }
+
 .images_wrapper{
   display:flex;
   margin:auto;
   flex-direction:row;
   justify-content:space-between;
+  text-decoration:none;
+  flex-wrap:wrap;
   
+}
+.images_wrapper img{
+
+}
+.card-title{
+  font-size:1.3em;
+  font-weight:bold;
+  text-decoration:none;
+  color:Black;
 }
 .images_demo{
   display:flex;
@@ -124,6 +145,9 @@ font-weight:400;
   font-weight:400px;
   flex-wrap:wrap;
 }
+.images_demo a{
+  text-decoration:none;
+} 
 .img-responsive{
   width:90%;
   max-width:650px;
