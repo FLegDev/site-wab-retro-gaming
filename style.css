@@ -100,7 +100,6 @@ font-weight:400;
 
 /*--- Images démo --*/
 #portfolio{
-  margin-top:150px;
 }
 .portfolio-item{
   border: 1px solid #ccc;
@@ -108,6 +107,7 @@ font-weight:400;
   padding:10px;
   margin:10px;
   text-align:center;
+  width:40%;
 
 }
 .images_wrapper{
