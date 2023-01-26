@@ -98,6 +98,20 @@ font-weight:400;
   justify-content:space-evenly;
 }
 
+.nav li{
+  list-style-type: none;
+}
+.logo{
+  max-width:100px;
+align-items: center;
+margin:auto;}
+
+h1{
+  Text-align:center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:royalblue;
+  border: red 3px dashed;
+}
 .section-title{
   margin: 50px 90px ;
   align-items: center;
